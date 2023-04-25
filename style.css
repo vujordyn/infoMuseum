@@ -5,7 +5,7 @@ body{
     background-image: url("images/concrete-wall-2.png");
     background-color: rgb(237, 237, 237);
     font-family: 'Open Sans', sans-serif;
-    color: red;
+    color: black;
 }
 
 .container{
@@ -32,6 +32,7 @@ body{
 #btnPanel {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -86,7 +87,7 @@ h1, h2 {
 }
 
 h2 {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -105,6 +106,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ref {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.refHeader{
+    margin-bottom: 0;
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
