@@ -5,7 +5,7 @@ body{
     background-image: url("images/concrete-wall-2.png");
     background-color: rgb(237, 237, 237);
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: red;
 }
 
 .container{
@@ -82,7 +82,12 @@ body{
 h1, h2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 img {
