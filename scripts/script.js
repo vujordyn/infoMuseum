@@ -29,7 +29,7 @@ btn0.addEventListener("click", ()=>{
     tile4.classList.add("hidden");
     tile5.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn1.addEventListener("click", ()=>{
     tile1.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -38,7 +38,7 @@ btn1.addEventListener("click", ()=>{
     tile4.classList.add("hidden");
     tile5.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn2.addEventListener("click", ()=>{
     tile2.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -47,7 +47,7 @@ btn2.addEventListener("click", ()=>{
     tile4.classList.add("hidden");
     tile5.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn3.addEventListener("click", ()=>{
     tile3.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -56,7 +56,7 @@ btn3.addEventListener("click", ()=>{
     tile4.classList.add("hidden");
     tile5.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn4.addEventListener("click", ()=>{
     tile4.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -65,7 +65,7 @@ btn4.addEventListener("click", ()=>{
     tile3.classList.add("hidden");
     tile5.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn5.addEventListener("click", ()=>{
     tile5.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -74,7 +74,7 @@ btn5.addEventListener("click", ()=>{
     tile3.classList.add("hidden");
     tile4.classList.add("hidden");
     tile6.classList.add("hidden");
-})
+});
 btn6.addEventListener("click", ()=>{
     tile6.classList.remove("hidden");
     tile0.classList.add("hidden");
@@ -83,5 +83,4 @@ btn6.addEventListener("click", ()=>{
     tile3.classList.add("hidden");
     tile4.classList.add("hidden");
     tile5.classList.add("hidden");
-})
-
+});
