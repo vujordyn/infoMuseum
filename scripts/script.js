@@ -1,3 +1,4 @@
+// Get all button and tile ids
 var btn0 = document.getElementById("btn0")
 var btn1 = document.getElementById("btn1")
 var btn2 = document.getElementById("btn2")
@@ -14,24 +15,14 @@ var tile4 = document.getElementById("tile4")
 var tile5 = document.getElementById("tile5")
 var tile6 = document.getElementById("tile6")
 
-var arrow = document.getElementById("scrollBtn")
-arrow.classList.add("hidden");
-
-$(window).bind('scroll', function() {
-    if ($(window).scrollTop() < 60) {
-        arrow.classList.add("hidden");
-    }
-    else {
-        arrow.classList.remove("hidden");
-    }
-});
-
 tile1.classList.add("hidden");
 tile2.classList.add("hidden");
 tile3.classList.add("hidden");
 tile4.classList.add("hidden");
 tile5.classList.add("hidden");
 tile6.classList.add("hidden");
+
+btn0.style.backgroundColor='rgb(216, 230, 242)';
 
 btn0.addEventListener("click", ()=>{
     tile0.classList.remove("hidden");
@@ -144,4 +135,17 @@ btn6.addEventListener("click", ()=>{
     btn4.style.backgroundColor='rgb(247, 247, 247)';
     btn5.style.backgroundColor='rgb(247, 247, 247)';
     btn6.style.backgroundColor='rgb(216, 230, 242)';
+});
+
+// Show or hide scroll button based on screen position
+var arrow = document.getElementById("scrollBtn")
+arrow.classList.add("hidden");
+
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() < 60) {
+        arrow.classList.add("hidden");
+    }
+    else {
+        arrow.classList.remove("hidden");
+    }
 });
