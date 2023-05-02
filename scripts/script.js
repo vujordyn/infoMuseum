@@ -139,6 +139,7 @@ btn6.addEventListener("click", ()=>{
 
 // Show or hide scroll button based on screen position
 var arrow = document.getElementById("scrollBtn")
+arrow.classList.add("hidden");
 
 $(window).bind('scroll', function() {
     if ($(window).scrollTop() < 60) {
