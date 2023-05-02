@@ -14,6 +14,18 @@ var tile4 = document.getElementById("tile4")
 var tile5 = document.getElementById("tile5")
 var tile6 = document.getElementById("tile6")
 
+var arrow = document.getElementById("scrollBtn")
+arrow.classList.add("hidden");
+
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() < 60) {
+        arrow.classList.add("hidden");
+    }
+    else {
+        arrow.classList.remove("hidden");
+    }
+});
+
 tile1.classList.add("hidden");
 tile2.classList.add("hidden");
 tile3.classList.add("hidden");
