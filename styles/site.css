@@ -86,7 +86,7 @@ h1, h2 {
 }
 
 h1 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 h2 {
@@ -97,6 +97,7 @@ h2 {
 #subheading {
     font-weight: 100;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .artHeader {
@@ -155,6 +156,16 @@ img {
     margin: 20px;
 }
 
+footer {
+  position: fixed;
+  font-size: 9px;
+  left: 5;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
 #arrowImg {
     filter: drop-shadow(0px 0px 0px #222);
 }
@@ -170,6 +181,9 @@ img {
     }
     .artHeader {
         margin-top: 0;
+    }
+    footer {
+        display: none;
     }
 
   }
