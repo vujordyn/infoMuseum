@@ -156,16 +156,6 @@ img {
     margin: 20px;
 }
 
-footer {
-  position: fixed;
-  font-size: 9px;
-  left: 5;
-  bottom: 0;
-  width: 100%;
-  color: rgb(0, 0, 0);
-  text-align: left;
-}
-
 #arrowImg {
     filter: drop-shadow(0px 0px 0px #222);
 }
@@ -182,9 +172,6 @@ footer {
     }
     .artHeader {
         margin-top: 0;
-    }
-    footer {
-        display: none;
     }
 
   }
