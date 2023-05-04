@@ -173,6 +173,7 @@ footer {
 @media (max-width: 600px) {
     .card p {
         width: 90%;
+        font-size: 15px;
     }
     .btnArt {
         padding-top: 2px;
